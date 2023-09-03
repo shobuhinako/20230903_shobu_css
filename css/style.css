@@ -17,16 +17,16 @@
     font-weight: bold;
 }
 
-ul {
+.header__menu {
     display: flex;
     justify-content: flex-end;
 }
 
-li {
+.header__menu-list {
     margin-right: 30px;
 }
 
-a {
+.header__menu-item {
     text-decoration: none;
     color: #000080;
     font-weight: bold;
@@ -35,16 +35,18 @@ a {
 
 .content {
     position: relative;
+    height: 100vh;
+    Width: 100vw;
 }
 
-img {
+.content__img-img {
     width: 100%;
 }
 
 .content__img {
     position: absolute;
-    top: 100px;
-    right: 0px;
+    top: 10%;
+    right: 0%;
     Z-index: 0;
     width: 50%;
 }
@@ -57,16 +59,18 @@ img {
 
 .content__inner-box {
     border: 1px solid;
-    width: 1000px;
-    height: 150px; 
+    width: 80%;
+    height: 20%;
     background: #000080;
 }
 
 .content__inner {
-   position: absolute;
-   top: 380px;
-   left: 0px;
-   Z-index: -10;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 55%;
+    left: 0px;
+    Z-index: -10;
 }
 
 
